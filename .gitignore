@@ -1,0 +1,5 @@
+public/js
+.cpcache
+.direnv
+.shadow-cljs
+node_modules

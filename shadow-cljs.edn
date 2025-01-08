@@ -1,0 +1,7 @@
+{:deps true
+ :builds
+ {:app {:modules    {:app {:init-fn foo.core/main}},
+        :output-dir "public/js",
+        :target     :browser}}
+ :dev-http
+ {8000 "public"}}}
